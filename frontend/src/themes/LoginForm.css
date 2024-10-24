@@ -1,0 +1,40 @@
+.login-form {
+  @apply max-w-md mx-auto bg-maroon-600 p-8 rounded-lg shadow-lg;
+}
+
+.login-form input {
+  @apply w-full p-2 border border-maroon-300 rounded-md focus:border-yellow-400;
+}
+
+.login-form button {
+  @apply w-full bg-yellow-500 text-maroon-700 py-2 rounded-md hover:bg-yellow-600;
+}
+
+.login-form button:hover {
+  @apply bg-yellow-600;
+}
+
+/* For the submitted data display */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.bg-yellow-100 {
+  background-color: #fef9c3;
+}
+
+.text-yellow-800 {
+  color: #b45309;
+}
+
+.bg-maroon-600 {
+  background-color: #8c1d40;
+}
+
+.text-maroon-700 {
+  color: #4b1218;
+}

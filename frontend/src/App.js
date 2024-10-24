@@ -1,21 +1,16 @@
+import React from "react";
+import LoginForm from "./components/LoginForm";
 import "./themes/App.css";
 
 function App() {
+  const handleLogin = (credentials) => {
+    console.log("Logging in with:", credentials);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to My App</h1>
+      <LoginForm onSubmit={handleLogin} />
     </div>
   );
 }
